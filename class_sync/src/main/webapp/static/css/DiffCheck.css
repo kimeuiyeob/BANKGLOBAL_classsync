@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+
+.flex-container {
+	display: flex;
+}
+
+.flex-item {
+	width: 25%;
+	border: 1px solid #dddddd;
+	overflow: auto;
+}
+
+.flex-item:nth-child(odd) {
+	border-left: none;
+}
+
+.heading {
+	text-align: center;
+}
+
+.padding-right {
+	padding-right: 5px;
+}
